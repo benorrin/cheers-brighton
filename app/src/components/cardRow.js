@@ -1,6 +1,6 @@
 export function CardRow({ title, cards, buttonLink }) {
     return (
-        <div className="cardRow">
+        <div className="cardRow mt-4">
             <div className="row">
                 <h2>{title}</h2>
                 <hr/>

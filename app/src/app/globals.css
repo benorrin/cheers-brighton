@@ -4,10 +4,33 @@ h1, h2, h3, h4, h5 {
     font-family: "Roboto", sans-serif;
 }
 
+h1 {
+    font-weight: 700 !important;
+}
+
+.place-heading {
+    font-size: 4rem;
+}
+
+.place-address {
+    font-size: 1.5rem;
+    color: #747474;
+}
+
+img {
+    max-width: 100%;
+}
+
 .card-overlay {
     background-color: rgb(33 37 41 / 60%) !important;
 }
 
 .navbar-brand {
     font-weight: 700;
+    color: #fff !important;
+}
+
+.navbar {
+    background: #3e56cc;
+    color: #fff;
 }
