@@ -1,6 +1,6 @@
 export function CardRow({ title, cards, buttonLink }) {
     return (
-        <div className="cardRow mt-4">
+        <div className="cardRow mt-5">
             <div className="row">
                 <h2>{title}</h2>
                 <hr/>
@@ -10,7 +10,7 @@ export function CardRow({ title, cards, buttonLink }) {
                         <a href={card.link}>
                             <div class="card bg-dark text-white">
                                 <img src={card.image} alt={card.alt} />
-                                <div class="card-img-overlay">
+                                <div class="card-img-overlay card-overlay">
                                     <h5 class="card-title">{card.title}</h5>
                                 </div>
                             </div>

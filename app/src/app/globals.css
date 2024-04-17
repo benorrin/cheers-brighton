@@ -2,19 +2,32 @@
 
 h1, h2, h3, h4, h5 {
     font-family: "Roboto", sans-serif;
-}
-
-h1 {
     font-weight: 700 !important;
 }
 
 .place-heading {
     font-size: 4rem;
+    margin-top: 1rem;
 }
 
 .place-address {
     font-size: 1.5rem;
     color: #747474;
+}
+
+.place-info-box {
+    border: 1px solid #b7c4ff;
+    padding: 1.5rem;
+    background: aliceblue;
+}
+
+.place-features p {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.place-features ul {
+    list-style: none;
 }
 
 img {
