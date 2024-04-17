@@ -1,0 +1,19 @@
+[package]
+name = "events"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-files = "0.6.2"
+actix-web = "4.4.0"
+anyhow = "1.0.75"
+dotenv = "0.15.0"
+serde_derive = "1.0.192"
+sqlx = { version = "0.7.2", features = ["postgres", "runtime-tokio", "time", "chrono"] }
+tera = "1.19.1"
+chrono = { version = "0.4.31", features = ["serde"] }
+serde = { version = "1.0.192", features = ["derive"] }
+rand = "0.8.5"
+serde_json = "1.0.116"
